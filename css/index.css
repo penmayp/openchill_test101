@@ -1,0 +1,152 @@
+body{
+	position: relative;
+	padding-top: 4%;
+	padding-right: 10%;
+	padding-left: 12%;
+	padding-bottom: 8%
+}
+
+
+/*
+.main-con{
+	position: absolute;
+	width: 60%;
+    height: 60%;
+	background-color: yellow;
+	
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	padding: 5%;
+	
+	}
+*/
+
+.main-con{
+	padding: 5%;
+	background-image:url('../images/img_wood.jpg');
+	border-radius: 15px;
+	}
+	
+
+h1{
+	text-align: center;
+	 font-weight: 900;
+	 background-color: rgba(255,255,255,0.8);
+	 padding: 5%;
+	 text-decoration: underline;
+	 text-shadow: 0 0 20px white, 0 0 40px white;
+	}	
+	
+h2{top: 20%;
+	position: relative;
+	background-color: rgba(255,255,255,0.8);
+	 font-weight: 800;
+	padding: 10%;
+}
+
+.box{
+	height: 300px;
+	border-style: solid;
+	border-width: 0px;
+	border-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 3%;
+	border-radius: 15px;
+}
+
+.nest-1{
+	height: 100%;
+	text-align: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px;
+	border-color: black;
+	background-image:url('../images/img_ddate.png');
+	background-repeat: no-repeat;
+	background-size: 500px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.nest-2{
+	height: 100%;
+	text-align: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px;
+	border-color: black;
+	background-image:url('../images/schedule.png');
+	background-repeat: no-repeat;
+	background-size: 500px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.nest-3{
+	height: 100%;
+	text-align: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px;
+	border-color: black;
+	background-image:url('../images/img_source.png');
+	background-repeat: no-repeat;
+	background-size: 300px;
+	box-shadow: 10px 10px 5px #888888;
+	background-position: -20px -30px;
+}
+
+@media screen and (max-width: 980px) {
+	body{
+		background-image:url('../images/img_lite.jpg');
+		padding: 5%;
+		padding-top: 2%;
+		}
+
+	.box{
+		height: 150px;
+		text-align: center;
+		padding-bottom: 5%;
+		padding-top: 1%;
+		background-color: rgba(255, 255, 255,0.3);
+		}
+	
+	h1{
+		background-color: rgba(255,255,255,0.0);
+		text-shadow: 0 0 20px white, 0 0 40px white;
+		padding: 0%;
+
+		}	
+		
+	h2{top: 5%;
+		position: relative;
+		background-color: rgba(255,255,255,0.6);
+		font-weight: 800;
+		padding: 3%;
+		}	
+	
+	.nest-1{
+		background-size: 650px;
+		background-position: 0px -100px;
+		}
+	
+	.nest-2{
+		background-size: 650px;
+		background-position: 0px -60px;
+		}
+	.nest-3{
+		background-size: 450px;
+		background-position: -50x -20px;
+		}
+	.nest-3 h2{
+		background-color: rgba(255,255,255,0.8);
+		}
+		
+	.main-con{
+		padding: 5%;
+		background-image: none;
+		}
+}
+
+
