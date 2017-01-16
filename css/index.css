@@ -31,15 +31,25 @@ body{
 
 	}
 	
-
-h1{
-	text-align: center;
-	 font-weight: 900;
+.head-con{
 	 background-color: rgba(255,255,255,0.8);
-	 padding: 5%;
-	 text-decoration: underline;
+	 text-align: center;
 	 text-shadow: 0 0 20px white, 0 0 40px white;
-	}	
+	 padding: 5%;
+	 border-radius: 15px;
+	 
+	 
+	}
+	
+h1{
+	 font-weight: 900;
+	 text-decoration: underline;
+	}
+	
+.slogan{
+	font-weight: 700;
+	font-size: 20px;
+	}
 	
 h2{top: 20%;
 	position: relative;
@@ -95,7 +105,7 @@ h2{top: 20%;
 	background-repeat: no-repeat;
 	background-size: 300px;
 	box-shadow: 10px 10px 5px #888888;
-	background-position: -20px -30px;
+	background-position: -20px 0px;
 }
 
 @media screen and (max-width: 980px) {
@@ -119,6 +129,10 @@ h2{top: 20%;
 		padding: 0%;
 
 		}	
+	.slogan{
+		font-weight: 700;
+		font-size: 15px;
+		}
 		
 	h2{top: 5%;
 		position: relative;
